@@ -1,0 +1,38 @@
+{
+  "name": "belaLearnsWords",
+  "version": "1.0.0",
+  "description": "bela is learning words",
+  "main": "./dist/bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/webpack",
+    "start-server": "./node_modules/.bin/webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Lamap/belaLearnsWords.git"
+  },
+  "keywords": [
+    "bela",
+    "learn",
+    "word"
+  ],
+  "author": "lamap",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lamap/belaLearnsWords/issues"
+  },
+  "homepage": "https://github.com/Lamap/belaLearnsWords",
+  "devDependencies": {
+    "source-map-loader": "^0.1.5",
+    "ts-loader": "^0.8.2",
+    "typescript": "^2.0.3",
+    "typings": "^1.4.0",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.1"
+  },
+  "dependencies": {
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  }
+}
