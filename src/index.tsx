@@ -4,6 +4,6 @@ import * as ReactDOM from "react-dom";
 import { Test } from "./components/Test";
 
 ReactDOM.render(
-    <Test compiler="TypeScript" framework="React" />,
+    <Test compiler="Bélásitott" framework="Jenő" />,
     document.getElementById("example")
 );

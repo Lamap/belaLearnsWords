@@ -11,4 +11,5 @@ npm run start-server
 TODOs
  setup tslint: https://github.com/palantir/tslint/
  setup watch mode
- 
+ add less 
+ add es6
