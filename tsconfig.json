@@ -10,6 +10,8 @@
     "files": [
         "./typings/index.d.ts",
         "./src/components/Test.tsx",
+        "./src/components/BelaHeader.tsx",
+        "./src/components/Groups.tsx",
         "./src/index.tsx"
     ]
 }
