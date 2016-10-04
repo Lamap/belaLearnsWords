@@ -6,10 +6,10 @@ import * as ReactDOM from "react-dom";
 import { Header } from "./components/BelaHeader";
 import { Groups } from "./components/Groups";
 
-window.bela = {
-	setGroup: function(group) {
+let bela: any = {
+	setGroup: function(group: any) {
 		console.log("setGroup", group);
-		window.bela.data.loadedGroup = group; 
+		bela.data.loadedGroup = group;
 	},
 	data: {
 		loadedGroup: null,
@@ -59,6 +59,6 @@ window.bela = {
 	}
 };
 ReactDOM.render(
-    <div><Header /><Groups groups={window.bela.data.groups}/></div>,
+    <div><Header /><Groups groups={bela.data.groups}/></div>,
     document.getElementById("bela-learns-words")
 );
