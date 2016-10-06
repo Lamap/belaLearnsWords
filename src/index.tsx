@@ -5,6 +5,7 @@ import * as ReactDOM from "react-dom";
 
 import { Header } from "./components/BelaHeader";
 import { Groups } from "./components/Groups";
+import { WordForm } from "./components/word-form/word-form";
 
 let bela: any = {
 	setGroup: function(group: any) {
@@ -59,6 +60,6 @@ let bela: any = {
 	}
 };
 ReactDOM.render(
-    <div><Header /><Groups groups={bela.data.groups}/></div>,
+    <div><Header /><Groups groups={bela.data.groups}/><WordForm word="bééééla"/></div>,
     document.getElementById("bela-learns-words")
 );

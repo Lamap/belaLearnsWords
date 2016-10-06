@@ -12,6 +12,7 @@
         "./src/components/Test.tsx",
         "./src/components/BelaHeader.tsx",
         "./src/components/Groups.tsx",
+        "./src/components/word-form/word-form.tsx",
         "./src/index.tsx"
     ]
 }

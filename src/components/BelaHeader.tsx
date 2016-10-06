@@ -1,5 +1,4 @@
 import * as React from "react";
-import ReactNode = __React.ReactNode;
 
 export interface IHeader { showLogo?: boolean};
 
