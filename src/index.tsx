@@ -12,6 +12,10 @@ let bela: any = {
 		console.log("setGroup", group);
 		bela.data.loadedGroup = group;
 	},
+	state: {
+		from: "en",
+		to: "cz"
+	},
 	data: {
 		loadedGroup: null,
 		loadedWord: 0,
@@ -60,6 +64,6 @@ let bela: any = {
 	}
 };
 ReactDOM.render(
-    <div><Header /><Groups groups={bela.data.groups}/><WordForm word="bééééla"/></div>,
+    <div><Header /><Groups groups={bela.data.groups}/><WordForm word={bela.data.words[0]} appState={bela.state}/></div>,
     document.getElementById("bela-learns-words")
 );
